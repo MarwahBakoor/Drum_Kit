@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom, rgba(227, 162, 180, 0.52), rgba(37, 20, 53, 0.73)),url('background.jpg');
+    background-size: cover;
+    
+}
+
+.keys{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.key{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    padding: 20px;
+    background-color:rgba(37, 20, 53, 0.4) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .07s ease;
+
+}
+
+kbd{
+    color: #ffffff;
+}
+
+.play{
+    transform: scale(1.05);
+     border-color: rgba(37, 20, 53);
+     box-shadow: 0 0 1rem rgba(37, 20, 53);
+}
+
+
+
+
+
